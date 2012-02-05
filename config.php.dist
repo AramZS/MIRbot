@@ -1,0 +1,66 @@
+<?php
+/* PHPIRCBot by Xan Manning
+Based on Molobot */
+
+// If PHP Runs with a webserver, uncomment below.
+// $path = $_SERVER['SCRIPT_FILENAME'];
+// $path = str_replace(basename($path), "", $path);
+
+// If PHP Runs on its own without webserver, uncomment below.
+// No Trailing \
+// $path = "/home/user/www/bot/v0.0.1";
+
+# The Configuration Arrays!
+$CONFIG = array();
+# Type in the server address
+$CONFIG['server'] = 'irc.debian.org';
+# The Bot Nickname
+$CONFIG['nick'] = 'IRCBot';
+# The Port
+$CONFIG['port'] = 6667;
+# The Channels to Join
+$CONFIG['channels'] = array("#debian");
+# The Bot's Name
+$CONFIG['name'] = 'PHPIRCBot';
+# Length of a user session
+$CONFIG['user_session_length'] = 3600;
+# The Prefix for commands, eg: ! = !join
+$CONFIG['prefix'] = "!";
+# Logging ( 1 = Enable | 0 = Disable )
+$CONFIG['logging'] = 0;
+# Log Dir
+$CONFIG['log_dir'] = $path . "/Logs/";
+# Prefix for Logfile
+$CONFIG['log_name'] = "Log";
+# Extention for Logfile
+$CONFIG['log_ext'] = ".txt";
+# Welcome ( 1 = Enable | 0 = Disable )
+$CONFIG['welcome_new'] = 0;
+#Welcome Message {NICK} gets replaced with their name!
+$CONFIG['welcome_msg'] = "Hello {NICK}, Welcome!";
+# Password Dir
+$CONFIG['pass_dir'] = $path . "/Data/";
+# Password filename
+$CONFIG['passfname'] = "users.db";
+# Data Dir
+$CONFIG['data_dir'] = $path . "/Data/";
+# Files Dir
+$CONFIG['file_dir'] = $path . "/Files/";
+# Bot Assign File
+$CONFIG['botassignfile'] = "botassign.db";
+# Ignored Users File
+$CONFIG['ignorefile'] = "ignore.db";
+# Recognised user file
+$CONFIG['userfile'] = "recognised.db";
+# AFK (Away from Keyboard) File...
+$CONFIG['afkfile'] = "afk.db";
+# State a message when comming online? 1 = True | 0 = False
+$CONFIG['sayonline'] = 1;
+# Message for Bot to say when comes online...
+$CONFIG['onlinemsg'] = "Search and Destroy!";
+# Owner of Bot...
+$CONFIG['owner'] = "admin";
+# Start up Commands...
+$CONFIG['commands'] = array("");
+
+?>

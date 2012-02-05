@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "Hello, I am an IRC Bot. This is the PHP5 Launcher...";
+echo "";
+echo -n "Press any key to continue...";
+
+read var_key
+	echo "Launching PHP...";
+	/usr/bin/env php -q ./bot.php $*

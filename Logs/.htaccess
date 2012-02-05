@@ -1,0 +1,8 @@
+AuthUserFile /home/xan/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Daedalus Logs"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+

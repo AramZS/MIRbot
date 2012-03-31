@@ -1,5 +1,5 @@
 <?php
-/* PHPIRCBot by Xan Manning
+/* MIRbot (Modular Information Retrieval Bot) by Xan Manning
 Based on Molobot */
 
 // If PHP Runs with a webserver, uncomment below.
@@ -15,13 +15,13 @@ $CONFIG = array();
 # Type in the server address
 $CONFIG['server'] = 'irc.debian.org';
 # The Bot Nickname
-$CONFIG['nick'] = 'IRCBot';
+$CONFIG['nick'] = 'MIRbot';
 # The Port
 $CONFIG['port'] = 6667;
 # The Channels to Join
 $CONFIG['channels'] = array("#debian");
 # The Bot's Name
-$CONFIG['name'] = 'PHPIRCBot';
+$CONFIG['name'] = 'MIRbot';
 # Length of a user session
 $CONFIG['user_session_length'] = 3600;
 # The Prefix for commands, eg: ! = !join
@@ -44,8 +44,6 @@ $CONFIG['pass_dir'] = $path . "/Data/";
 $CONFIG['passfname'] = "users.db";
 # Data Dir
 $CONFIG['data_dir'] = $path . "/Data/";
-# Files Dir
-$CONFIG['file_dir'] = $path . "/Files/";
 # Bot Assign File
 $CONFIG['botassignfile'] = "botassign.db";
 # Ignored Users File

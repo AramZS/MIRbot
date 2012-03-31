@@ -269,7 +269,7 @@ class Core
 				$buffer = $this->con['buffer']['all'];
 				$buffer = explode(" ", $buffer, 4);
 				
-				$extb = explode(" ", $buffer, 5);
+				#$extb = explode(" ", $buffer, 5);
 				
 				$cut = explode("!", $buffer[0], 2);
 		
@@ -762,7 +762,7 @@ break;
 				global $moduleconf;				
 				$basic = array('time' => 'Tells you the time.',
 								'noob' => 'Information for n00bs.', 
-								'login' => 'Lets you login to ' . $this->CONFIG['nick'] . '. Syntax: /msg ' . $this->CONFIG['nick'] . ' .login username password', 
+								'login' => 'Lets you login to ' . $this->CONFIG['nick'] . '. Syntax: /msg ' . $this->CONFIG['nick'] . ' ' . $this->CONFIG['prefix'] . 'login username password', 
 								'owner' => 'Reveal the bot owner.',
 								'seen' => 'See a users last recorded action.',
 								'afk' => 'Set yourself as Away From Keyboard.');

@@ -1,9 +1,9 @@
-PHPIRCBot
+MIRbot
 =========
 
 ### Written by Xan Manning
 
-This is a modular PHP bot that I wrote based upon Molobot by CodeDemons. It was created for personal uses but I am releasing it for others to play with. I haven't yet explained how modules work but I have included one module that I use on InspIRCd.
+MIR (Modular Information Retrieval Bot) is a modular PHP IRC bot that I wrote based upon Molobot by CodeDemons. It was created for personal uses but I am releasing it for others to play with. I haven't yet explained how modules work but I have included one module that I use on InspIRCd.
 
 This has been released under the MIT License.
 

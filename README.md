@@ -8,6 +8,12 @@ MIR (Modular Information Retrieval Bot) is a modular PHP IRC bot that I wrote ba
 This has been released under the MIT License.
 
 
+Donations
+---------
+
+***Bitcoin:*** 1BFhtdVYmtAuYostpZLDAiGt1dmJaHTRDW
+
+
 Installation
 ------------
 

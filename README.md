@@ -11,7 +11,8 @@ This has been released under the MIT License.
 Donations
 ---------
 
-***Bitcoin:*** 1BFhtdVYmtAuYostpZLDAiGt1dmJaHTRDW
+**BITCOIN DONATIONS**
+ * 1BFhtdVYmtAuYostpZLDAiGt1dmJaHTRDW
 
 
 Installation
